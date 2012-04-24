@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4029
+
+syn match t2tTitle1 '^ *\(=\)[^=]\(\|.*[^=]\)\1\(\[[a-z0-9_-]*\]\)\=\s*$' contains=t2tTitleMark,t2tTitleRef
+syn match t2tTitle2 '^ *\(==\)[^=]\(\|.*[^=]\)\1\(\[[a-z0-9_-]*\]\)\=\s*$' contains=t2tTitleMark,t2tTitleRef
+syn match t2tTitle3 '^ *\(===\)[^=]\(\|.*[^=]\)\1\(\[[a-z0-9_-]*\]\)\=\s*$' contains=t2tTitleMark,t2tTitleRef
+syn match t2tTitle4 '^ *\(====\)[^=]\(\|.*[^=]\)\1\(\[[a-z0-9_-]*\]\)\=\s*$' contains=t2tTitleMark,t2tTitleRef
+syn match t2tTitle5 '^ *\(=====\)[^=]\(\|.*[^=]\)\1\(\[[a-z0-9_-]*\]\)\=\s*$' contains=t2tTitleMark,t2tTitleRef
+
+etc
+add +aaa+ ++aaa++ different color.
